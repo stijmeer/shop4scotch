@@ -1,0 +1,126 @@
+/*
+ * Theme Name: Portfolio Stijmeer
+ * Theme URI: https://github.com/stijmeer/cmp2/tree/master/template_wp
+ * Author: Stijn Meersschaert
+ * Author URI: www.stijnmeersschaert.be
+ * Description: Portfolio theme voor het vak CMP2 binnen de opleiding Grafische en Digitale Media, aan de Arteveldehogeschool.
+ * Version: 1.0
+ * Text Domain: portfoliostijmeer
+ */
+
+/*
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Utilities
+ *   2.1 - Variables
+ *   2.2 - Mixins
+ * 3.0 - Base
+ *   3.1 - Base
+ *   3.2 - Helpers
+ *   3.3 - Grid
+ *   3.4 - Typography
+ * 4.0 - Layouts
+ *   4.1 - Layout
+ *   4.2 - Navigation
+ *   4.3 - Footer
+ * 5.0 - Components
+ *   5.1 - Buttons
+ *   5.2 - Links
+ * 6.0 - Page-specific styles
+ * 7.0 - Themes
+ *
+ */
+
+@charset "UTF-8";
+
+/*
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+@import '../../../../../Desktop/styles/css/styles/vendor/normalize';
+
+
+
+/*
+ * 2.0 - Utilities
+ *
+ * Configuration and helpers
+ */
+  /*
+   * 2.1 - Variables
+   */
+  @import '../../../../../Desktop/styles/css/styles/utils/variables';
+  /*
+   * 2.2 - Mixins
+   */
+  @import '../../../../../Desktop/styles/css/styles/utils/mixins';
+
+
+
+/*
+ * 3.0 - Base
+ */
+  /*
+   * 3.1 - Base
+   */
+  @import '../../../../../Desktop/styles/css/styles/base/base';
+  /*
+   * 3.2 - Helpers
+   */
+  @import '../../../../../Desktop/styles/css/styles/base/helpers';
+  /*
+   * 3.3 - Grid
+   */
+  @import '../../../../../Desktop/styles/css/styles/base/grid';
+  /*
+   * 3.4 - Typography
+   */
+  @import '../../../../../Desktop/styles/css/styles/base/typography';
+
+
+
+/*
+ * 4.0 - Layouts
+ *
+ * Layout-related classes and sections: Header, Footer, ...
+ */
+  /*
+   * 4.1 - Layout
+   */
+  @import '../../../../../Desktop/styles/css/styles/layout/layout';// good, error, warning, info
+  /*
+   * 4.2 - Navigation
+   */
+  @import '../../../../../Desktop/styles/css/styles/layout/navigation';
+  /*
+   * 4.3 - Footer
+   */
+  @import '../../../../../Desktop/styles/css/styles/layout/footer';
+
+
+
+/*
+ * 5.0 - Components
+ */
+  /*
+   * 5.1 - Buttons
+   */
+  @import '../../../../../Desktop/styles/css/styles/components/button';
+  /*
+   * 5.2 - Links
+   */
+
+
+
+/*
+ * 6.0 - Page-specific styles
+ */
+
+
+
+/*
+ * 7.0 - Themes
+ */
